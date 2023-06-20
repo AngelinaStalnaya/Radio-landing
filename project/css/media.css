@@ -272,7 +272,6 @@
     max-width: calc((100% - (var(--gutter))) / 2);
   }
 
-
   .about-us__item_descr {
     margin-bottom: 31px;
   }
@@ -281,13 +280,14 @@
     padding: 92px var(--container_padding);
   }
 
+  .footer-bottom__container {
+    background-position: left -19px top;
+  }
+
   .footer__item:last-child {
     padding-left: 102px;
   }
 
-  .footer-bottom__container {
-    background-image: url('../img/footer-wave-1024.svg');
-  }
 }
 
 
@@ -316,7 +316,6 @@
   .col-md-4 {
     flex-basis: 100%;
   }
-
 
   .header__container {
     min-height: 140px;
@@ -561,7 +560,8 @@
   }
 
   .footer-bottom__container {
-    background-image: url('../img/footer-wave-768.svg');
+    background-image: url('../img/footer-wave-1024.svg');
+    background-position: left top;
   }
 
   .footer-bootom__descr {
@@ -572,7 +572,7 @@
 
 @media (max-width: 760px) {
   .about-us__item_dawn {
-  display: none;
+    display: none;
   }
 }
 
@@ -704,6 +704,36 @@
     line-height: 21px;
     margin-top: 0;
     margin-bottom: 8px;
+  }
+
+  .broadcasts__title {
+    margin-bottom: 0;
+  }
+
+  .broadcasts__item_content {
+    padding: 10px 9px;
+  }
+
+  .broadcasts__item__title {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .broadcasts__item_btn {
+    width: 91px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 0;
+  }
+
+  .broadcasts__item_descr {
+    margin-bottom: 30px;
+    min-height: 18px;
+  }
+
+  .broadcasts__item:nth-child(2) .broadcasts__item_descr {
+    margin-bottom: 19px;
   }
 
   .broadcasts__btn {
@@ -919,50 +949,20 @@
   }
 
   .footer-bottom__container {
-    background-image: url('../img/footer-wave-320.svg');
+    background-image: url('../img/footer-wave-768.svg');
+    background-position: left -22px top;
   }
 
   .footer-bootom__descr {
     font-size: 12px;
     line-height: 12px;
   }
-
 }
 
 
 @media (max-width: 320px) {
 
-  .broadcasts__title {
-    margin-bottom: 0;
-  }
-
-  .broadcasts__item_content {
-    padding: 10px 9px;
-  }
-
-  .broadcasts__item__title {
-    font-size: 12px;
-    line-height: 12px;
-  }
-
-  .broadcasts__item_btn {
-    width: 91px;
-    height: 12px;
-    font-size: 12px;
-    line-height: 12px;
-    margin-bottom: 0;
-  }
-
-  .broadcasts__item_descr {
-    margin-bottom: 30px;
-    min-height: 18px;
-  }
-
-  .broadcasts__item:nth-child(2) .broadcasts__item_descr {
-    margin-bottom: 19px;
-  }
-
-  .archive-block__content {
+ .archive-block__content {
     flex-direction: column-reverse;
   }
 
@@ -998,7 +998,5 @@
     background-position: top 58px left;
     padding-bottom: 28px;
   }
-
-
 
 }
