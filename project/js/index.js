@@ -1,7 +1,8 @@
 let inputName = document.getElementById("Name");
 const regex = new RegExp(/[^A-Za-zА-яа-я]/gm);
 
-function nameCheck() {
+inputName.addEventListener('focusout', function () {
+
   let inputName = document.getElementById("Name");
   const result = regex.test(inputName.value);
 
@@ -10,4 +11,4 @@ function nameCheck() {
   } else {
     inputName.classList.remove('about-us__form_item-error');
   }
-}
+});
