@@ -534,8 +534,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
   }
 
   .logo__ok,
@@ -551,7 +549,7 @@
 
   .footer__nav_list {
     gap: 27px;
-    height: 113px;
+    min-height: 113px;
   }
 
   .footer__nav_link {
@@ -633,7 +631,7 @@
 
   .header__nav {
     margin-bottom: 0px;
-    height: 50px;
+    min-height: 50px;
     margin-left: -32px;
     border: 1px solid var(--light_color);
   }
@@ -933,7 +931,7 @@
   .footer__nav_list {
     gap: 17px;
     margin-bottom: 0px;
-    height: 165px;
+    min-height: 165px;
     flex-direction: column;
   }
 
