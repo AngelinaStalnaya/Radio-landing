@@ -643,6 +643,7 @@
 
   .footer__item:last-child {
     padding: 0;
+    overflow: scroll;
   }
 
   .nav-list {
@@ -752,16 +753,14 @@
     min-height: 17px;
     flex-wrap: nowrap;
     gap: 28px;
-    overflow: hidden;
-    padding: 15px 32px;
     overflow: scroll;
   }
 
   .header__nav {
     margin-bottom: 0px;
     min-height: 50px;
-    margin-left: -32px;
-    border: 1px solid var(--light_color);
+    overflow: scroll;
+    padding-right: 0;
   }
 
   .header__logo {
