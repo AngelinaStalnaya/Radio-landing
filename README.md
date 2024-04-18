@@ -1,5 +1,7 @@
-# W-Wave Radio
-The project for diploma 1st stage Weblayout.
+# W-Wave Radio landing
+
+
+## The project for diploma 1st stage Weblayout.
 
 - Clear adaptive semantic layout landing for desktop, laptop and mobile;
 - Cross-browser layout similar for Chrome, Firefox, Safari, Opera, Edge;
